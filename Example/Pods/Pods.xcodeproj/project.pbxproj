@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1AFCA465DCF8CBB8C3654FD8 /* UIFont+SMSymbolFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AB4BB55D53A6784345A3983 /* UIFont+SMSymbolFont.h */; };
+		379A959C846BDBD3AED7CB1E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65A0CF0E88F8DE4E0CC33D1B /* MapKit.framework */; };
+		38B84F08D1DE31E4A482292F /* UIImage+SMSymbolFont.h in Headers */ = {isa = PBXBuildFile; fileRef = E432E1118B83471D24665D34 /* UIImage+SMSymbolFont.h */; };
+		3EF9584D5C566B0F1D4F6DFF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CD668BE33C16BC8DFC236DC /* Foundation.framework */; };
+		6432DDDD2266AA4A6DC4E1B7 /* Pods-SMSymbolFont-SMSymbolFont-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 171F5A34F58CC081296A1410 /* Pods-SMSymbolFont-SMSymbolFont-dummy.m */; };
+		69B97EE5D045893C617C0032 /* UIFont+SMSymbolFont.m in Sources */ = {isa = PBXBuildFile; fileRef = E1100A7D6A575B289B615185 /* UIFont+SMSymbolFont.m */; };
+		6AF6B0FFA7BC120C38BA51AF /* UIImage+SMSymbolFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A13F75BEC422D28E3D272A6 /* UIImage+SMSymbolFont.m */; };
+		7735CADE280B01D0D6738A36 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CD668BE33C16BC8DFC236DC /* Foundation.framework */; };
+		9106DE48CE9B4B20B83C9932 /* SMSymbolImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = D5F90A8F844BB95B624CCA4D /* SMSymbolImageView.h */; };
+		989D1C8FD1D8D09D99757115 /* SMSymbol.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4233DBB4D3601D8D973395 /* SMSymbol.m */; };
+		A49A4B1D5716CEAFC238893B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AEA49D7070981D3527E7E17 /* UIKit.framework */; };
+		B3295A82CBF08DDAAAD9899B /* Pods-SMSymbolFont-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3A8DB18026863C886C9794 /* Pods-SMSymbolFont-dummy.m */; };
+		B8D3E779EE38AE094A499C9D /* SMSymbolImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E6BB3B84AC03668ADDC1B9 /* SMSymbolImageView.m */; };
+		F4A69F5B772A162FB949A9B1 /* SMSymbol.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E405CF154A962984E542B17 /* SMSymbol.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		53462319AD1F2A38C0A5DF41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6AAA8FA725A2501C8EEFA842 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E424C0B3503D04C9276C503D;
+			remoteInfo = "Pods-SMSymbolFont-SMSymbolFont";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01FB48364276E1C8BB22BE45 /* Pods-SMSymbolFont-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SMSymbolFont-environment.h"; sourceTree = "<group>"; };
+		0A13F75BEC422D28E3D272A6 /* UIImage+SMSymbolFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+SMSymbolFont.m"; sourceTree = "<group>"; };
+		0CD668BE33C16BC8DFC236DC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		16B2F39A6D2E59622B6D6A41 /* libPods-SMSymbolFont-SMSymbolFont.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SMSymbolFont-SMSymbolFont.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		171F5A34F58CC081296A1410 /* Pods-SMSymbolFont-SMSymbolFont-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SMSymbolFont-SMSymbolFont-dummy.m"; sourceTree = "<group>"; };
+		3AB4BB55D53A6784345A3983 /* UIFont+SMSymbolFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIFont+SMSymbolFont.h"; sourceTree = "<group>"; };
+		4B4233DBB4D3601D8D973395 /* SMSymbol.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SMSymbol.m; sourceTree = "<group>"; };
+		65A0CF0E88F8DE4E0CC33D1B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/MapKit.framework; sourceTree = DEVELOPER_DIR; };
+		79CF95F5BA8A0103803A57F2 /* Pods-SMSymbolFont-SMSymbolFont.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SMSymbolFont-SMSymbolFont.xcconfig"; sourceTree = "<group>"; };
+		7A16D21435C38222881130B5 /* Pods-SMSymbolFont-SMSymbolFont-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SMSymbolFont-SMSymbolFont-Private.xcconfig"; sourceTree = "<group>"; };
+		8AEA49D7070981D3527E7E17 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		93280CA13C6AE6BEDA51BC01 /* Pods-SMSymbolFont-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SMSymbolFont-acknowledgements.markdown"; sourceTree = "<group>"; };
+		979D6AA623D2464EEF0C331D /* Pods-SMSymbolFont-SMSymbolFont-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SMSymbolFont-SMSymbolFont-prefix.pch"; sourceTree = "<group>"; };
+		9AC7FA0ABF4F8AECABC354D2 /* Pods-SMSymbolFont-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SMSymbolFont-resources.sh"; sourceTree = "<group>"; };
+		9C3A8DB18026863C886C9794 /* Pods-SMSymbolFont-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SMSymbolFont-dummy.m"; sourceTree = "<group>"; };
+		9E405CF154A962984E542B17 /* SMSymbol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SMSymbol.h; sourceTree = "<group>"; };
+		A087359E7E99846B499D7A54 /* Pods-SMSymbolFont.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SMSymbolFont.release.xcconfig"; sourceTree = "<group>"; };
+		A0E6BB3B84AC03668ADDC1B9 /* SMSymbolImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SMSymbolImageView.m; sourceTree = "<group>"; };
+		AD5D86C74ABB85629A58DB31 /* libPods-SMSymbolFont.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SMSymbolFont.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD125FF2C8CC21B5A27DCAD8 /* Pods-SMSymbolFont-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SMSymbolFont-acknowledgements.plist"; sourceTree = "<group>"; };
+		D5F90A8F844BB95B624CCA4D /* SMSymbolImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SMSymbolImageView.h; sourceTree = "<group>"; };
+		E1100A7D6A575B289B615185 /* UIFont+SMSymbolFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIFont+SMSymbolFont.m"; sourceTree = "<group>"; };
+		E432E1118B83471D24665D34 /* UIImage+SMSymbolFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+SMSymbolFont.h"; sourceTree = "<group>"; };
+		EB4CC933A65EC826EFFBD3D8 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ED60E794232E67DADC167927 /* Pods-SMSymbolFont.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SMSymbolFont.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		666617029DA371793A889AE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EF9584D5C566B0F1D4F6DFF /* Foundation.framework in Frameworks */,
+				379A959C846BDBD3AED7CB1E /* MapKit.framework in Frameworks */,
+				A49A4B1D5716CEAFC238893B /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8017DA1F1E2475DC16980108 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7735CADE280B01D0D6738A36 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12B7ED7B5DD7C83A062B6B3A /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				9E405CF154A962984E542B17 /* SMSymbol.h */,
+				4B4233DBB4D3601D8D973395 /* SMSymbol.m */,
+				3AB4BB55D53A6784345A3983 /* UIFont+SMSymbolFont.h */,
+				E1100A7D6A575B289B615185 /* UIFont+SMSymbolFont.m */,
+				E432E1118B83471D24665D34 /* UIImage+SMSymbolFont.h */,
+				0A13F75BEC422D28E3D272A6 /* UIImage+SMSymbolFont.m */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		292BE6DBDADDE57937210B0E /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				45AC0B102AF86A26011D849D /* Pod */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		2D4F1F49B5C773433D74027C /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				9CFCA310D8A9F904EAA5760C /* Pod */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		32F4482E7FC454C767B11E8C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				12B7ED7B5DD7C83A062B6B3A /* Core */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		45AC0B102AF86A26011D849D /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				32F4482E7FC454C767B11E8C /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		502561DB295F3A596678525D /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				D5F90A8F844BB95B624CCA4D /* SMSymbolImageView.h */,
+				A0E6BB3B84AC03668ADDC1B9 /* SMSymbolImageView.m */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		5C8FA33E2C915F1E8DAF11ED /* Pods-SMSymbolFont */ = {
+			isa = PBXGroup;
+			children = (
+				93280CA13C6AE6BEDA51BC01 /* Pods-SMSymbolFont-acknowledgements.markdown */,
+				CD125FF2C8CC21B5A27DCAD8 /* Pods-SMSymbolFont-acknowledgements.plist */,
+				9C3A8DB18026863C886C9794 /* Pods-SMSymbolFont-dummy.m */,
+				01FB48364276E1C8BB22BE45 /* Pods-SMSymbolFont-environment.h */,
+				9AC7FA0ABF4F8AECABC354D2 /* Pods-SMSymbolFont-resources.sh */,
+				ED60E794232E67DADC167927 /* Pods-SMSymbolFont.debug.xcconfig */,
+				A087359E7E99846B499D7A54 /* Pods-SMSymbolFont.release.xcconfig */,
+			);
+			name = "Pods-SMSymbolFont";
+			path = "Target Support Files/Pods-SMSymbolFont";
+			sourceTree = "<group>";
+		};
+		5CBD528B60C78CE758764DA7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				79CF95F5BA8A0103803A57F2 /* Pods-SMSymbolFont-SMSymbolFont.xcconfig */,
+				7A16D21435C38222881130B5 /* Pods-SMSymbolFont-SMSymbolFont-Private.xcconfig */,
+				171F5A34F58CC081296A1410 /* Pods-SMSymbolFont-SMSymbolFont-dummy.m */,
+				979D6AA623D2464EEF0C331D /* Pods-SMSymbolFont-SMSymbolFont-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Pods-SMSymbolFont-SMSymbolFont";
+			sourceTree = "<group>";
+		};
+		603AAA42AED65038ED3538C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A57FF0436558500D23755B37 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DC720AFDC4F1CF3DEB8AAAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD5D86C74ABB85629A58DB31 /* libPods-SMSymbolFont.a */,
+				16B2F39A6D2E59622B6D6A41 /* libPods-SMSymbolFont-SMSymbolFont.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E2023CCC74AD975DD520644 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				958CAF81191FAC9E90C1A0FA /* SMSymbolFont */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		958CAF81191FAC9E90C1A0FA /* SMSymbolFont */ = {
+			isa = PBXGroup;
+			children = (
+				292BE6DBDADDE57937210B0E /* Core */,
+				5CBD528B60C78CE758764DA7 /* Support Files */,
+				2D4F1F49B5C773433D74027C /* UI */,
+			);
+			name = SMSymbolFont;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		9CFCA310D8A9F904EAA5760C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				ABBD4A91A0E6271D2E022D70 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		9E2228A49BB926D49582A227 = {
+			isa = PBXGroup;
+			children = (
+				EB4CC933A65EC826EFFBD3D8 /* Podfile */,
+				7E2023CCC74AD975DD520644 /* Development Pods */,
+				603AAA42AED65038ED3538C6 /* Frameworks */,
+				7DC720AFDC4F1CF3DEB8AAAA /* Products */,
+				DDCA6B382143AE52B3F1F42D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A57FF0436558500D23755B37 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				0CD668BE33C16BC8DFC236DC /* Foundation.framework */,
+				65A0CF0E88F8DE4E0CC33D1B /* MapKit.framework */,
+				8AEA49D7070981D3527E7E17 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		ABBD4A91A0E6271D2E022D70 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				502561DB295F3A596678525D /* UI */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		DDCA6B382143AE52B3F1F42D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5C8FA33E2C915F1E8DAF11ED /* Pods-SMSymbolFont */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		41BF277FB16C3A8029E41E4C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4A69F5B772A162FB949A9B1 /* SMSymbol.h in Headers */,
+				9106DE48CE9B4B20B83C9932 /* SMSymbolImageView.h in Headers */,
+				1AFCA465DCF8CBB8C3654FD8 /* UIFont+SMSymbolFont.h in Headers */,
+				38B84F08D1DE31E4A482292F /* UIImage+SMSymbolFont.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		E424C0B3503D04C9276C503D /* Pods-SMSymbolFont-SMSymbolFont */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAF6D5B71B13A8F9EC513997 /* Build configuration list for PBXNativeTarget "Pods-SMSymbolFont-SMSymbolFont" */;
+			buildPhases = (
+				41B00F55E6609C775203087F /* Sources */,
+				666617029DA371793A889AE3 /* Frameworks */,
+				41BF277FB16C3A8029E41E4C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SMSymbolFont-SMSymbolFont";
+			productName = "Pods-SMSymbolFont-SMSymbolFont";
+			productReference = 16B2F39A6D2E59622B6D6A41 /* libPods-SMSymbolFont-SMSymbolFont.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F99EB293D97F8B4D6E1FF0A5 /* Pods-SMSymbolFont */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A5B38002A70A12B3A6819BA /* Build configuration list for PBXNativeTarget "Pods-SMSymbolFont" */;
+			buildPhases = (
+				8DECB1BA2349D41F27811997 /* Sources */,
+				8017DA1F1E2475DC16980108 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1469F9CB8ABF5D6B92F0892 /* PBXTargetDependency */,
+			);
+			name = "Pods-SMSymbolFont";
+			productName = "Pods-SMSymbolFont";
+			productReference = AD5D86C74ABB85629A58DB31 /* libPods-SMSymbolFont.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6AAA8FA725A2501C8EEFA842 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = 3F00329DF1A3B9A63C3AA3DB /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9E2228A49BB926D49582A227;
+			productRefGroup = 7DC720AFDC4F1CF3DEB8AAAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F99EB293D97F8B4D6E1FF0A5 /* Pods-SMSymbolFont */,
+				E424C0B3503D04C9276C503D /* Pods-SMSymbolFont-SMSymbolFont */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		41B00F55E6609C775203087F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6432DDDD2266AA4A6DC4E1B7 /* Pods-SMSymbolFont-SMSymbolFont-dummy.m in Sources */,
+				989D1C8FD1D8D09D99757115 /* SMSymbol.m in Sources */,
+				B8D3E779EE38AE094A499C9D /* SMSymbolImageView.m in Sources */,
+				69B97EE5D045893C617C0032 /* UIFont+SMSymbolFont.m in Sources */,
+				6AF6B0FFA7BC120C38BA51AF /* UIImage+SMSymbolFont.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DECB1BA2349D41F27811997 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3295A82CBF08DDAAAD9899B /* Pods-SMSymbolFont-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E1469F9CB8ABF5D6B92F0892 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SMSymbolFont-SMSymbolFont";
+			target = E424C0B3503D04C9276C503D /* Pods-SMSymbolFont-SMSymbolFont */;
+			targetProxy = 53462319AD1F2A38C0A5DF41 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1C5BE140E84B92BC8015B744 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5D797FDCDAA6C437F6DC7F02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5FA75CAED8866B8E5E012435 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A16D21435C38222881130B5 /* Pods-SMSymbolFont-SMSymbolFont-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-SMSymbolFont-SMSymbolFont/Pods-SMSymbolFont-SMSymbolFont-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		68406B7B495CE984CB5E7909 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A16D21435C38222881130B5 /* Pods-SMSymbolFont-SMSymbolFont-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-SMSymbolFont-SMSymbolFont/Pods-SMSymbolFont-SMSymbolFont-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A46F063CD046C73C788E6D04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED60E794232E67DADC167927 /* Pods-SMSymbolFont.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B4D38CB341AFFB11B005D725 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A087359E7E99846B499D7A54 /* Pods-SMSymbolFont.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A5B38002A70A12B3A6819BA /* Build configuration list for PBXNativeTarget "Pods-SMSymbolFont" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A46F063CD046C73C788E6D04 /* Debug */,
+				B4D38CB341AFFB11B005D725 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F00329DF1A3B9A63C3AA3DB /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C5BE140E84B92BC8015B744 /* Debug */,
+				5D797FDCDAA6C437F6DC7F02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAF6D5B71B13A8F9EC513997 /* Build configuration list for PBXNativeTarget "Pods-SMSymbolFont-SMSymbolFont" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68406B7B495CE984CB5E7909 /* Debug */,
+				5FA75CAED8866B8E5E012435 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6AAA8FA725A2501C8EEFA842 /* Project object */;
+}

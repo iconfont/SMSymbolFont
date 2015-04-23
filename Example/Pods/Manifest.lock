@@ -1,0 +1,18 @@
+PODS:
+  - SMSymbolFont (0.1.0):
+    - SMSymbolFont/Core (= 0.1.0)
+    - SMSymbolFont/UI (= 0.1.0)
+  - SMSymbolFont/Core (0.1.0)
+  - SMSymbolFont/UI (0.1.0)
+
+DEPENDENCIES:
+  - SMSymbolFont (from `../`)
+
+EXTERNAL SOURCES:
+  SMSymbolFont:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SMSymbolFont: 0407be2a9e97854e23abfb0678cdf71c4d7d51a7
+
+COCOAPODS: 0.36.0

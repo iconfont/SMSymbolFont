@@ -6,7 +6,7 @@
 #import <Foundation/Foundation.h>
 
 extern const struct SMSymbol {
-__unsafe_unretained NSString *const Cat;
-    
+    __unsafe_unretained NSString *const Setting;
 } SMSymbol;
+
 

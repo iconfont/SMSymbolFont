@@ -6,6 +6,5 @@
 #import "SMSymbol.h"
 
 const struct SMSymbol SMSymbol = {
-        .Setting = @"setting"
+        .Cat = @"cat",
 };
-
